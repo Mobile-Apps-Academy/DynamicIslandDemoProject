@@ -14,5 +14,6 @@ struct FoodDeliveryAttributes: ActivityAttributes {
         var phoneNumber: String
         var restaurantName: String
         var customerAddress: String
+        var remainingDistance: String // Added a remainingDistance variable to show a progress bar
     }
 }
